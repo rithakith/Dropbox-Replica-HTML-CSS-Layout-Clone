@@ -1,0 +1,616 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Atlas Grotesk Web", Atlas Grotesk, AtlasGrotesk, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  ;
+}
+/* ------------------------------------------------------------------common styling---------------------------------------------------------------------------------- */
+h3 {
+  font-family: "Atlas Grotesk Web", Atlas Grotesk, AtlasGrotesk, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  ;
+
+}
+.headline-plank-black {
+  clear: both;
+  height: 72px;
+  background-color: #1E1919;
+  display: block;
+}
+
+.headline-plank-white {
+  height: 72px;
+  display: block;
+  background-color: #F7F5F2;
+}
+
+#headline {
+  clear: both;
+  float: left;
+  font-size: 50px;
+  color: #F7F5F2;
+  padding-top: 50px;
+}
+
+.headline {
+  font-family: 'Red Rose', cursive;
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+  font-weight: 700;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.small {
+  font-size: 30px;
+}
+
+#headline-p {
+  font-family: "Atlas Grotesk Web", Atlas Grotesk, AtlasGrotesk, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  ;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-size: 19px;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+
+.increase-height {
+  height: 200px;
+}
+
+/* --------------------------------------------------------------------navigation---------------------------- -------------------------------------------------------*/
+.navbar {
+  width: 100%;
+  position: relative;
+  background-color: #f5f5f5;
+  overflow: hidden;
+  height: 48px;
+  position: fixed;
+  top: 0;
+  display: fixed;
+  justify-content: space-between;
+}
+
+#img-title-navbar {
+  width: 93;
+  height: 22;
+}
+
+
+.navbar a {
+  font-family: "Atlas Grotesk Web", Atlas Grotesk, AtlasGrotesk, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  ;
+  float: left;
+  color: #1E1919;
+  text-align: center;
+
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.except-logo a,
+.navbar-floatright a {
+  padding: 14px 20px;
+}
+
+
+
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#get-started {
+  background-color: #0061FE;
+  color: #F7F5F2;
+  font-weight: bold;
+  width: 150px;
+  /* margin-right: 20px; */
+  /* float: right; */
+  margin-right: 1px;
+  text-align: left;
+
+}
+.navbar-floatright {
+  font-family: "Atlas Grotesk Web", Atlas Grotesk, AtlasGrotesk, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  ;
+
+  float: right;
+}
+/* ------------------------------------------------------HEADLINE - JOIN OVER 700 MILLION---------------------------------------------------------------------- */
+
+.headline-grid {
+  background-color: #1E1919;
+  color: #F7F5F2;
+}
+/* ------------------------------------------------------WHITE PART- A SET OF PRODUCTS TO DO MORE ---------------------------------------------------------------*/
+.main-grid {
+  background-color: #F7F5F2;
+  color: #1E1919
+}
+
+
+
+
+/* --------------------------------------------------------BUTTONS------------------------------------------------------------------------------------------- */
+#signup {
+  padding: 24px;
+  background-color: #3984FF;
+  width: 210px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  clear: both;
+  color: #1E1919;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 55px;
+  font-family: "Atlas Grotesk Web", Atlas Grotesk, AtlasGrotesk, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  ;
+}
+
+
+
+#signup:hover {
+  background-color: #5a98fc;
+}
+#learn {
+  color: black;
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+}
+
+#learn:after {
+  content: '';
+
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0.5px;
+
+  border-width: 0 0 1px;
+  border-style: solid;
+}
+
+
+
+/* ---------------------------------------------------IMAGES------------------------------------------------------------------------------------------- */
+#background {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 50%;
+
+}
+/* ------------------------------------------------------SECTION PARTS----------------------------------------------------------------------------- */
+.section {
+  width: 80%;
+  height: 300px;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-family: "Atlas Grotesk Web", Atlas Grotesk, AtlasGrotesk, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  ;
+
+}
+
+.section-a {
+  padding: 0px 12px;
+
+  width: 25%;
+  height: 200px;
+  float: left;
+  font-size: 16px;
+}
+
+.section-b {
+  padding: 0 12px;
+
+  width: 25%;
+  height: 200px;
+  float: left;
+}
+
+.section-c {
+  padding: 0 12px;
+
+  width: 25%;
+  height: 200px;
+  float: left;
+}
+
+.section-d {
+  padding: 0 12px;
+
+  width: 25%;
+  height: 200px;
+  float: left;
+}
+
+
+/* ------------------------------------------------------------------2 COLUMNS---------------------------------------------------------------------------------- */
+.aside {
+  width: 50%;
+  display: grid;
+  float: left;
+  height: 1000px;
+
+}
+
+.left {
+  width: 80%;
+  padding: 30px;
+  margin-left: auto;
+
+  margin-right: auto;
+  display: block;
+  font-size: 17px;
+  font-family: "Atlas Grotesk Web", Atlas Grotesk, AtlasGrotesk, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  ;
+}
+
+.right {
+  background-color: #14c8Eb;
+  font-family: "Atlas Grotesk Web", Atlas Grotesk, AtlasGrotesk, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  ;
+  width: 50%;
+  float: left;
+  /* height:1055px; */
+}
+
+.menu {
+  padding: 35px 0;
+  padding-left: 10px;
+}
+
+.menu:hover {
+  background-color: rgb(226, 213, 213);
+}
+/* ----------------------------------------------------------------WORK AND PERSONAL--------------------------------------------------------------------------- */
+.work {
+  width: 90%;
+  /* background-color: wheat; */
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 400px;
+  /* overflow: hidden; */
+}
+
+.left-left {
+
+  width: 50%;
+  float: left;
+
+}
+
+.right-right {
+
+  width: 50%;
+  float: left;
+
+}
+
+.black {
+  background-color: #1E1919;
+  height: 1000px;
+}
+
+#text-left {
+  text-align: left;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.paragraph {
+  font-family: "Atlas Grotesk Web", Atlas Grotesk, AtlasGrotesk, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  ;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.button {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 20px 0;
+  font-family: "Atlas Grotesk Web", Atlas Grotesk, AtlasGrotesk, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  ;
+  font-size: 20px;
+  background-color: #0061FE;
+  color: #F7F5F2;
+}
+
+.refer {
+  float: right;
+}
+/* ---------------------------------------------------------FOOTER------------------------------------------------------------------------------- */
+footer {
+  height: 1000px;
+  background-color: black;
+  color: #F7F5F2;
+
+
+}
+
+.footer-1,
+.footer-2,
+.footer-3,
+.footer-4,
+.footer-5 {
+  width: 20%;
+  padding: 20px;
+  float: left;
+  padding: 30px 0;
+
+}
+
+.footer-1 div,
+.footer-2 div,
+.footer-3 div,
+.footer-4 div,
+.footer-5 div {
+  padding: 10px 0;
+  color: #F7F5F2;
+}
+.width{
+  width: 80%;
+}
+
+/* ****************************HAMBURGER ICON********************************* */
+
+.hamburger {
+  cursor: pointer;
+  display: none;
+}
+
+
+
+
+/* __________________________________________RESPONSIVE MAX-WIDTH 808PX________________________________________________ */
+@media screen and (max-width: 808px) {
+
+  .work {
+
+    height: 800px;
+  }
+
+  .black {
+    height: 1400px;
+  }
+
+  .headline {
+    width: 80%;
+    font-size: 45px;
+  }
+
+  #text-left {
+    font-size: 32px;
+  }
+
+  .left-left,
+  .right-right {
+    width: 100%;
+  }
+
+  .ashley {
+    padding-bottom: 20px;
+    margin-left: -5px;
+
+  }
+
+  .box {
+    height: 90px;
+  }
+
+  #headline {
+    clear: both;
+    float: left;
+    font-size: 30px;
+    color: #F7F5F2;
+    padding-top: 70px;
+    width: 100%;
+    text-align: left;
+  }
+
+  .refer {
+    padding-top: 50px;
+    float: left;
+    margin-top: 0;
+    margin-left: 30px;
+  }
+
+  .footer-1,
+  .footer-2,
+  .footer-3,
+  .footer-4,
+  .footer-5 {
+    width: 50%;
+    padding: 20px;
+    float: left;
+    padding: 30px 0;
+
+  }
+
+  footer {
+    clear: both;
+    height: 1300px;
+    background-color: black;
+    color: #F7F5F2;
+  }
+}
+ 
+/* __________________________________________RESPONSIVE MAX-WIDTH 1010PX________________________________________________ */
+
+  @media screen and (max-width: 1010px) {
+    #background {
+
+      width: 80%;
+
+    }
+
+    .work {
+
+      height: 900px;
+    }
+
+    .section-a {
+
+      width: 50%;
+      height: 300px;
+      float: left;
+      font-size: 16px;
+    }
+
+    .section-b {
+
+      width: 50%;
+      height: 300px;
+      float: left;
+    }
+
+    .section-c {
+
+      width: 50%;
+      height: 200px;
+      float: left;
+    }
+
+    .section-d {
+
+      width: 50%;
+      height: 300px;
+      float: left;
+    }
+
+    .section {
+      width: 80%;
+      height: 600px;
+      font-size: 16px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      font-family: "Atlas Grotesk Web", Atlas Grotesk, AtlasGrotesk, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+      ;
+
+    }
+
+    .right {
+      display: none;
+    }
+
+    .aside {
+      width: 100%;
+    }
+
+    .left {
+      width: 95%;
+    }
+
+    .left-left,
+    .right-right {
+      width: 100%;
+    }
+
+    .black {
+      height: 1500px;
+    }
+
+    #headline {
+      clear: both;
+      float: left;
+      font-size: 30px;
+      color: #F7F5F2;
+      padding-top: 70px;
+      width: 100%;
+      text-align: left;
+    }
+
+    .ashley {
+      padding-bottom: 20px;
+      margin-left: 30px;
+    }
+
+    .refer {
+      padding-top: 30px;
+      float: left;
+      margin-top: 0px;
+      margin-left: 30px;
+      padding-bottom: 20px;
+    }
+
+    .box {
+      height: 150px;
+    }
+
+    footer {
+      clear: both;
+      clear: both;
+      height: 900px;
+      background-color: black;
+      color: #F7F5F2;
+    }
+
+    .footer-1,
+    .footer-2,
+    .footer-3 {
+      width: 33.33%;
+      padding: 20px;
+      float: left;
+      padding: 30px 0;
+
+    }
+
+    .footer-4,
+    .footer-5 {
+      /* clear: both; */
+      width: 50%;
+      padding: 20px;
+      float: left;
+      padding: 30px 0;
+
+    }
+
+  }
+/* __________________________________________RESPONSIVE MIN-WIDTH 1010PX________________________________________________ */
+
+  @media screen and (min-width: 1010px) {
+
+    .work {
+      height: 400px;
+    }
+
+    .ashley {
+      padding-bottom: 20px;
+      margin-left: 20px;
+
+    }
+
+    .text-left {
+      font-size: 10px;
+      color: black
+    }
+
+    .box {
+      height: 90px;
+    }
+
+    footer {
+      height: 600px;
+    }
+  }

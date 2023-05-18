@@ -1,0 +1,477 @@
+/* -----------------------------SECTION-01------------------------------ */
+
+#section-getapp{
+    clear: both;
+}
+
+.section-1-getapp{
+    width: 100%;
+    height:660px;
+    clear: both;
+}
+.section-1-getapp-left{
+    width:35%;
+    float: left;
+    height: 100%;
+    position: relative;
+    background-color: rgb(254, 250, 244);
+}
+
+.section-1-getapp-left-content{
+    height: 80%;
+    width:80%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
+}
+.section-1-getapp-left-content h1{
+    font-family: 'Red Rose', cursive;
+    font-size: 55px;
+    line-height: 90%;
+    text-align: left;
+    font-weight:400;
+    margin-bottom:20px;
+    color:#1e1919;
+}
+.section-1-getapp-left-content p{
+    font-size: 18px;
+    font-family: "Atlas Grotesk Web", Atlas Grotesk, AtlasGrotesk, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+.button-section1-getapp{
+    background-color:  #0061FE;
+    padding: 28px;
+    width:200px;
+    text-align: left;
+    color: #F7F5F2;
+    font-weight: 600;
+   
+}
+#learn-section1-getapp{
+    text-decoration: underline;
+    text-decoration-color: rgb(168, 166, 166);
+    text-decoration-thickness: 1px ;
+    text-underline-offset: 3px;
+    font-weight: 500;
+    font-size: 18px;
+}
+#learn-section1-getapp:hover{
+    text-decoration-color: rgb(50, 50, 50);
+    text-decoration-thickness: 1.5px ;
+
+}
+.section-1-getapp-right{
+    width: 65%;
+    float: left;
+    background-color: #BE4B0A;
+    height: 100%;
+    position: relative;   
+}
+
+#img-section1-getapp{
+    height: 80%;
+    width:80%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+/* -----------------------------------------SECTION-2------------------------- */
+.section-2{
+    background-color: #1e1919;
+}
+.section-2-content{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.section-2-content h2{   
+    font-family: 'Red Rose', cursive;
+    font-size: 45px;
+    text-align: center;
+    font-weight:400;
+    margin-bottom:20px;
+    color:#F7F5F2;    
+}
+.section-2-content p{
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-family: "Atlas Grotesk Web", Atlas Grotesk, AtlasGrotesk, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-size: 17px;
+    color:#F7F5F2;    
+
+}
+/* -----------------------------------------SECTION-3------------------------- */
+.section-3{
+    background-color:#1e1919;
+    width: 100%;
+    clear: both;
+    height: 800px;
+}
+.section-3-left{
+    width: 45%;
+    height: 100%;
+    float: left;
+    clear: both;
+}
+.section-3-left-space{
+    width: 27%;
+    float: left;
+    height: 100%;
+}
+.section-3-left-content-box{
+    width: 73%;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+.section-3-left-content{
+    top:50%;
+    left:50%;
+    margin: 0;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 90%;
+    height:50%;
+    
+}
+.section-3-left-content-text{
+    padding:20% 0;
+    height:100% ;
+    font-size: 18px;
+    color: #F7F5F2;
+    font-family: "Atlas Grotesk Web", Atlas Grotesk, AtlasGrotesk, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+
+}
+#section-3-topic{
+    font-size: 25px;
+}
+.section-3-right{
+    width: 55%;
+    height: 100%;
+    float: left;
+    background-color:#2b2929;
+    position: relative;
+}
+#section-3-right-img{
+    top:50%;
+    left:50%;
+    margin: 0;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-color: oldlace;
+    width: 90%;
+    height: 80%;
+    object-fit: cover;
+}
+/* -----------------------------------------SECTION-4------------------------- */
+
+.section-4{
+    background-color:#1e1919;
+    width: 100%;
+    clear: both;
+    height: 800px;
+}
+.section-4-left{
+    width: 55%;
+    height: 100%;
+    float: left;
+    background-color:#2b2929;
+    position: relative;
+}
+
+#section-4-left-img{
+    top:50%;
+    left:50%;
+    margin: 0;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 60%;
+    height: 90%;
+}
+.section-4-right{
+    width: 45%;
+    height: 100%;
+    float: left;
+}
+.section-4-right-space{
+    width: 27%;
+    float: left;
+    height: 100%;
+}
+.section-4-right-content-box{
+    width: 73%;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+.section-4-right-content{
+    top:50%;
+    left:50%;
+    margin: 0;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 90%;
+    height:50%;
+    margin-left: 30px;
+}
+.section-4-right-content-text{
+    padding:20% 0;
+    height:100% ;
+    font-size: 18px;
+    color: #F7F5F2;
+    font-family: "Atlas Grotesk Web", Atlas Grotesk, AtlasGrotesk, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+
+}
+#section-4-topic{
+    font-size: 25px;
+}
+/* -----------------------------------------SECTION-5------------------------- */
+
+.section-6{
+    width: 100%;
+    clear: both;
+    height:800px;
+    background-color: #F7F5F2;
+}
+.section-6-top{
+    width: 60%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.section-6-top p{
+    text-align: center;
+    font-size: 18px;
+}
+.section-6-h2{
+    font-family: 'Red Rose', cursive;
+    font-size: 45px;
+    text-align: center;
+    font-weight:400;
+    margin-bottom:20px;
+    color:#1e1919;
+}
+.section-6-image-container{
+    width: 100%;
+    height: 500px;
+    background-color: #2b2929;
+    position: relative;
+}
+.section-6-image{
+    width: 80%;
+    height: 90%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+/* -----------------------------------------SECTION-7------------------------ */
+
+#section7{
+    background-color: #F7F5F2;
+}
+.section-7{
+    clear: both;
+    width: 80%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+.col{
+    width: 33.33%;
+    float: left;
+    padding-left: 50px;
+
+}
+.col p{
+    font-size: 17px;
+        font-family: "Atlas Grotesk Web", Atlas Grotesk, AtlasGrotesk, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+
+}
+/* -----------------------------------------SECTION-8------------------------- */
+#section8{
+    background-color: #1e1919;
+}
+.section-8{
+    width: 80%;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    clear: both;
+}
+.section-8-left{
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+.section-8-left h2{
+    text-align: left;
+    padding: 90px 0;
+    font-family: 'Red Rose', cursive;
+    font-size: 50px;
+    font-weight:400;
+    margin-bottom:20px;
+    color:#F7F5F2;
+
+}
+.section-8-right{
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+#section-8-button{
+    margin-top:90px;
+    padding: 20px 0;
+    background-color: #3984ff;
+    width: 230px;
+    margin-left: auto;
+    padding-left: 20px;
+    font-weight: 700;
+    color: #1e1919;
+    border: #3984ff solid 1px;
+}
+
+/* __________________________________________RESPONSIVE MAX-WIDTH 808PX________________________________________________ */
+
+@media screen and (max-width: 808px) {
+    .section-1-getapp{
+        height:400px;
+    }
+    .section-1-getapp-left{
+        width: 100%;
+    }
+    .section-1-getapp-right{
+        width: 100%;
+    }
+    #img-section1-getapp{
+        width: 70%;
+    }
+
+    .section-2-content p{
+        width:90%;
+}
+.section-2{
+    height: 200px;
+}
+
+
+  
+
+    .section-3-left{
+        width: 100%;
+        height: 60%;
+    }
+    .section-3-left-space{
+        width:5%;
+    }
+    .section-3-right{
+        width: 100%;
+    }
+
+    .section-4{
+        height:400px;
+    }
+    .section-4-left{
+       width:100%;
+       margin-left: auto;
+       margin-right: auto;
+       display: block;
+
+    }
+    #section-4-left-img{
+
+        width: 40%;
+        height: 90%;
+    }
+    .section-4-right{
+        width:100%;
+        height: 0;
+    }
+
+
+    .section-6-top{
+        width: 80%;
+        height: 500px;
+
+    }
+    .section-6-image{
+        width: 90%;
+        height: 90%;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    
+    }
+
+
+
+
+
+
+
+    .section-7{
+        width: 100%;
+        height: 200px;
+
+    }
+    .col{
+        padding-left: 30px;
+    }
+    .col h2, .col p{
+        font-size: 16px;
+    }
+
+
+
+
+
+
+
+    .section-8{
+        height: 400px;
+}
+    .section-8-left{
+        width: 100%;
+        height: 50%;
+    }
+    .section-8-right{
+        width: 100%;
+        height: 50%;
+    }
+    #section-8-button{
+        margin-top: 0;
+        padding: 20px 0;
+        background-color: #3984ff;
+        width: 230px;
+        margin-left: 0;
+        padding-left: 20px;
+        font-weight: 700;
+        color: #1e1919;
+        border: #3984ff solid 1px;
+    }
+}
